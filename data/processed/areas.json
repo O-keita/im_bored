@@ -1,0 +1,398 @@
+{
+  "district": {
+    "Bakau": {
+      "area_km2": 9.8,
+      "label": [
+        13.4733,
+        -16.6682
+      ]
+    },
+    "Banjul Central": {
+      "area_km2": 0.8,
+      "label": [
+        13.4567,
+        -16.5766
+      ]
+    },
+    "Banjul North": {
+      "area_km2": 7.4,
+      "label": [
+        13.4586,
+        -16.5938
+      ]
+    },
+    "Banjul South": {
+      "area_km2": 1.2,
+      "label": [
+        13.4494,
+        -16.576
+      ]
+    },
+    "Basse": {
+      "area_km2": 163.9,
+      "label": [
+        13.2927,
+        -14.2018
+      ]
+    },
+    "Central Badibu": {
+      "area_km2": 249.4,
+      "label": [
+        13.5203,
+        -15.9205
+      ]
+    },
+    "Foni Bintang Karanai": {
+      "area_km2": 278.3,
+      "label": [
+        13.2456,
+        -16.2329
+      ]
+    },
+    "Foni Bondali": {
+      "area_km2": 156.6,
+      "label": [
+        13.2304,
+        -15.941
+      ]
+    },
+    "Foni Brefet": {
+      "area_km2": 124.7,
+      "label": [
+        13.218,
+        -16.3458
+      ]
+    },
+    "Foni Jarrol": {
+      "area_km2": 79.9,
+      "label": [
+        13.2228,
+        -15.8413
+      ]
+    },
+    "Foni Kansala": {
+      "area_km2": 194.9,
+      "label": [
+        13.2305,
+        -16.0674
+      ]
+    },
+    "Illiasa": {
+      "area_km2": 363.6,
+      "label": [
+        13.5241,
+        -15.7035
+      ]
+    },
+    "Janjanbureh": {
+      "area_km2": 11.2,
+      "label": [
+        13.5405,
+        -14.7755
+      ]
+    },
+    "Jarra central": {
+      "area_km2": 154.6,
+      "label": [
+        13.4199,
+        -15.4152
+      ]
+    },
+    "Jarra East": {
+      "area_km2": 217.1,
+      "label": [
+        13.4527,
+        -15.2597
+      ]
+    },
+    "Jarra West": {
+      "area_km2": 177.0,
+      "label": [
+        13.4304,
+        -15.5424
+      ]
+    },
+    "Jeshwang": {
+      "area_km2": 13.5,
+      "label": [
+        13.4508,
+        -16.6671
+      ]
+    },
+    "Jimara": {
+      "area_km2": 332.5,
+      "label": [
+        13.3266,
+        -14.451
+      ]
+    },
+    "Jokadu": {
+      "area_km2": 279.7,
+      "label": [
+        13.5102,
+        -16.1589
+      ]
+    },
+    "Kantora": {
+      "area_km2": 298.8,
+      "label": [
+        13.4143,
+        -13.8387
+      ]
+    },
+    "Kiang Central": {
+      "area_km2": 162.4,
+      "label": [
+        13.4016,
+        -15.7566
+      ]
+    },
+    "Kiang East": {
+      "area_km2": 128.7,
+      "label": [
+        13.4181,
+        -15.644
+      ]
+    },
+    "Kiang West": {
+      "area_km2": 698.3,
+      "label": [
+        13.3446,
+        -16.0233
+      ]
+    },
+    "Kombo Central": {
+      "area_km2": 168.9,
+      "label": [
+        13.2521,
+        -16.6684
+      ]
+    },
+    "Kombo East": {
+      "area_km2": 298.2,
+      "label": [
+        13.2502,
+        -16.4948
+      ]
+    },
+    "Kombo North": {
+      "area_km2": 184.4,
+      "label": [
+        13.3811,
+        -16.7019
+      ]
+    },
+    "Kombo South": {
+      "area_km2": 278.0,
+      "label": [
+        13.205,
+        -16.7313
+      ]
+    },
+    "Lower Badibu": {
+      "area_km2": 197.5,
+      "label": [
+        13.5165,
+        -16.0427
+      ]
+    },
+    "Lower Fuladu West": {
+      "area_km2": 345.1,
+      "label": [
+        13.5257,
+        -14.9125
+      ]
+    },
+    "Lower Niumi": {
+      "area_km2": 354.7,
+      "label": [
+        13.507,
+        -16.4267
+      ]
+    },
+    "Lower Saloum": {
+      "area_km2": 185.2,
+      "label": [
+        13.7085,
+        -15.3596
+      ]
+    },
+    "Niamina Dankunku": {
+      "area_km2": 126.9,
+      "label": [
+        13.6036,
+        -15.3228
+      ]
+    },
+    "Niamina East": {
+      "area_km2": 363.8,
+      "label": [
+        13.6388,
+        -15.0835
+      ]
+    },
+    "Niamina West": {
+      "area_km2": 154.7,
+      "label": [
+        13.5764,
+        -15.242
+      ]
+    },
+    "Niani": {
+      "area_km2": 436.1,
+      "label": [
+        13.6761,
+        -14.8438
+      ]
+    },
+    "Nianija": {
+      "area_km2": 135.4,
+      "label": [
+        13.7162,
+        -15.131
+      ]
+    },
+    "Sabach Sanjar": {
+      "area_km2": 341.9,
+      "label": [
+        13.5402,
+        -15.4702
+      ]
+    },
+    "Sami": {
+      "area_km2": 491.6,
+      "label": [
+        13.5449,
+        -14.6937
+      ]
+    },
+    "Sandu": {
+      "area_km2": 329.8,
+      "label": [
+        13.4257,
+        -14.3746
+      ]
+    },
+    "Serrekunda Central": {
+      "area_km2": 3.9,
+      "label": [
+        13.4308,
+        -16.683
+      ]
+    },
+    "Serrekunda East": {
+      "area_km2": 12.7,
+      "label": [
+        13.4099,
+        -16.6588
+      ]
+    },
+    "Serrekunda West": {
+      "area_km2": 13.1,
+      "label": [
+        13.4464,
+        -16.7001
+      ]
+    },
+    "Tumana": {
+      "area_km2": 301.9,
+      "label": [
+        13.3686,
+        -14.0843
+      ]
+    },
+    "Upper Fuladu West": {
+      "area_km2": 470.0,
+      "label": [
+        13.4436,
+        -14.7362
+      ]
+    },
+    "Upper Niumi": {
+      "area_km2": 420.2,
+      "label": [
+        13.4317,
+        -16.3391
+      ]
+    },
+    "Upper Saloum": {
+      "area_km2": 244.5,
+      "label": [
+        13.7335,
+        -15.2358
+      ]
+    },
+    "Wuli East": {
+      "area_km2": 324.6,
+      "label": [
+        13.4836,
+        -13.9944
+      ]
+    },
+    "Wuli West": {
+      "area_km2": 275.0,
+      "label": [
+        13.4333,
+        -14.1707
+      ]
+    }
+  },
+  "region": {
+    "Banjul": {
+      "area_km2": 9.4,
+      "label": [
+        13.458,
+        -16.5911
+      ]
+    },
+    "Basse": {
+      "area_km2": 2026.4,
+      "label": [
+        13.4481,
+        -14.2972
+      ]
+    },
+    "Brikama": {
+      "area_km2": 1764.0,
+      "label": [
+        13.2465,
+        -16.2981
+      ]
+    },
+    "Janjanbureh": {
+      "area_km2": 1471.7,
+      "label": [
+        13.5231,
+        -14.8788
+      ]
+    },
+    "Kanifing": {
+      "area_km2": 52.9,
+      "label": [
+        13.4367,
+        -16.6807
+      ]
+    },
+    "Kerewan": {
+      "area_km2": 2207.0,
+      "label": [
+        13.5405,
+        -15.7354
+      ]
+    },
+    "Kuntaur": {
+      "area_km2": 1492.9,
+      "label": [
+        13.629,
+        -14.8523
+      ]
+    },
+    "Mansakonko": {
+      "area_km2": 1538.0,
+      "label": [
+        13.3994,
+        -15.7056
+      ]
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "unit": "VIIRS S-NPP equivalent hotspots",
+  "viirs_start": "2012-01-20",
+  "aqua_start": "2002-08-25",
+  "snpp_end": "2026-11-01",
+  "overlap_seasons": [
+    2013,
+    2026
+  ],
+  "eras": {
+    "modis": {
+      "overall_factor": 5.308,
+      "month_factor": {
+        "0": 5.0,
+        "1": 5.182,
+        "2": 5.043,
+        "3": 4.998,
+        "4": 6.007,
+        "5": 6.301,
+        "6": 5.662,
+        "11": 4.241,
+        "12": 4.946
+      },
+      "count_model": {
+        "exponent": 0.7898,
+        "month": {
+          "0": 0.8602,
+          "1": 2.4045,
+          "2": 2.45,
+          "3": 2.3985,
+          "4": 2.5071,
+          "5": 2.4698,
+          "6": 2.1911,
+          "11": 1.9272,
+          "12": 2.213
+        },
+        "region": {
+          "Basse": 0.0,
+          "Brikama": -0.1262,
+          "Janjanbureh": 0.0627,
+          "Kerewan": -0.024,
+          "Kuntaur": 0.0297,
+          "Mansakonko": -0.0122,
+          "pooled": -0.5478
+        }
+      },
+      "missed_where_modis_saw_nothing": 0.0102,
+      "interval": [
+        0.859,
+        1.19
+      ],
+      "validation": {
+        "national_season": {
+          "single_factor": 0.0667,
+          "month_and_region": 0.0729,
+          "count_model": 0.0537
+        },
+        "region_season": {
+          "single_factor": 0.144,
+          "month_and_region": 0.1165,
+          "count_model": 0.099
+        },
+        "national_month": {
+          "single_factor": 0.1512,
+          "month_and_region": 0.1445,
+          "count_model": 0.1276
+        },
+        "region_month": {
+          "single_factor": 0.274,
+          "month_and_region": 0.2617,
+          "count_model": 0.2348
+        }
+      },
+      "held_out_seasons": [
+        {
+          "season": 2013,
+          "predicted": 5469,
+          "observed": 5004
+        },
+        {
+          "season": 2014,
+          "predicted": 4546,
+          "observed": 4712
+        },
+        {
+          "season": 2015,
+          "predicted": 3004,
+          "observed": 2822
+        },
+        {
+          "season": 2016,
+          "predicted": 3975,
+          "observed": 4615
+        },
+        {
+          "season": 2017,
+          "predicted": 4962,
+          "observed": 4919
+        },
+        {
+          "season": 2018,
+          "predicted": 4827,
+          "observed": 5084
+        },
+        {
+          "season": 2019,
+          "predicted": 3862,
+          "observed": 4073
+        },
+        {
+          "season": 2020,
+          "predicted": 5396,
+          "observed": 5254
+        },
+        {
+          "season": 2021,
+          "predicted": 5342,
+          "observed": 5044
+        },
+        {
+          "season": 2022,
+          "predicted": 4876,
+          "observed": 5470
+        },
+        {
+          "season": 2023,
+          "predicted": 6462,
+          "observed": 6901
+        },
+        {
+          "season": 2024,
+          "predicted": 7596,
+          "observed": 7460
+        },
+        {
+          "season": 2025,
+          "predicted": 5073,
+          "observed": 4822
+        },
+        {
+          "season": 2026,
+          "predicted": 5818,
+          "observed": 5781
+        }
+      ]
+    },
+    "terra": {
+      "terra_to_modis": 2.233,
+      "fitted_on_seasons": [
+        2003,
+        2007
+      ],
+      "tested_on_seasons": [
+        2008,
+        2011
+      ],
+      "validation": {
+        "national_season": 0.0282,
+        "region_season": 0.1044
+      },
+      "interval": [
+        0.827,
+        1.284
+      ]
+    }
+  },
+  "noaa20_factor": 1.007,
+  "noaa20_overlap_seasons": [
+    2019,
+    2026
+  ],
+  "confidence_check": [
+    {
+      "rule": "keep_all",
+      "dropped_share": 0.0,
+      "national_season": 0.0537,
+      "region_season": 0.099,
+      "national_month": 0.1276,
+      "region_month": 0.2348
+    },
+    {
+      "rule": "drop_modis_low",
+      "dropped_share": 0.007,
+      "national_season": 0.0546,
+      "region_season": 0.1002,
+      "national_month": 0.1309,
+      "region_month": 0.2405
+    },
+    {
+      "rule": "drop_viirs_low",
+      "dropped_share": 0.1411,
+      "national_season": 0.0552,
+      "region_season": 0.1053,
+      "national_month": 0.1351,
+      "region_month": 0.2492
+    },
+    {
+      "rule": "drop_both",
+      "dropped_share": 0.1481,
+      "national_season": 0.0576,
+      "region_season": 0.1071,
+      "national_month": 0.1389,
+      "region_month": 0.2558
+    }
+  ]
+}
